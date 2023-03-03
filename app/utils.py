@@ -1,0 +1,2 @@
+BORROWER_ID = 1
+LENDER_ID = 2
