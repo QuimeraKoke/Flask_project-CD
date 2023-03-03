@@ -11,7 +11,6 @@ class MySQLConnection:
                                      charset = 'utf8mb4',
                                      cursorclass = pymysql.cursors.DictCursor,
                                      autocommit = True)
-        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'P4ssW0rD';
         # establecer la conexión a la base de datos
         self.connection = connection
     # el método para consultar la base de datos
