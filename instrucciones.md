@@ -134,7 +134,7 @@ ahora pare cerrar VIM/editor apretamos ESC luego : y luego w y q y finalmente en
 Continuamos ejecutando
 
 ```
-	sudo ln -s /etc/nginx/sites-available/project_flask /etc/nginx/sites-enabled
+	sudo ln -s /etc/nginx/sites-available/{{project}} /etc/nginx/sites-enabled
 	sudo rm /etc/nginx/sites-enabled/default
 	sudo vim /etc/nginx/nginx.conf
 ```
