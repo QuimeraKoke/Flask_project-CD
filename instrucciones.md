@@ -67,7 +67,7 @@ Ahora descargaremos nuestro proyecto a la maquina de la siguiente manera:
 	pip3 install gunicorn
 	deactivate
 	source venv/bin/activate
-	gunicorn --bind 0.0.0.0:5000 app:app
+	gunicorn --bind 0.0.0.0:5000 wsgi:application
 ```
 
 Aqui se cargara gunicorn y quedará corriendo en la terminal, se deberá ver algo así.
